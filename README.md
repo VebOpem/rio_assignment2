@@ -7,8 +7,10 @@ The text we have chosen is Favorite Colour by Joni Mitchell
     (Link to the text: https://jonimitchell.com/music/song.cfm?id=296)
 
 # SoC
-The project splits the SoC's into colors, interaction, layout and typography
+Soc - What is it?
+Soc (Separation of concern) is a design principle for sepaarating code into distinct sections such that each section addresses a separate concern.
 
+The project splits the SoC's into colors, interaction, layout and typography
 
 # BEM
 BEM - What is it? 
