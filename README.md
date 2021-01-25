@@ -15,7 +15,35 @@ BEM - What is it?
 BEM (Block Element  Modifier)
     A methodology that helps you create reusable components and code sharing in front-end development.
 
-    BEM - block _ _ element - - modifier
+BEM - block _ _ element - - modifier
+
+Block
+        "A functionally independent page component that can be reused. In HTML, blocks are represented by the class attribute."
+    
+    Example:
+        .button {
+        text-transform: uppercase;
+        }
+
+Element
+        "A composite part of a block that can't be used separately from it."
+    
+        Example: 
+            .button__action {
+            background-color: $themeGreen--light;
+            }
+
+Modifier
+        "An entity that defines the appearance, state, or behavior of a block or element."
+
+        The modifier name describes its appearance, state and behavior.
+
+        Example: 
+            .button__action--dark {
+            background-color: $themeGreen--dark;
+            }
+
+
 
 # PROJECT DESCRIPTION
     
