@@ -1,5 +1,35 @@
+.p3 {
+  background-color: green;
+  color: white;
+}
+
+.p4 {
+  background-color: gold;
+  color: white;
+}
+
+.p6 {
+  background-color: blue;
+  color: white;
+}
+
+.p7 {
+  background-color: silver;
+  color: white;
+}
+
+.p8 {
+  background-color: red;
+  color: white;
+}
+
 * {
   padding: 0;
   margin: 0;
+}
+
+section {
+  width: 100vw;
+  height: 100vw;
 }
 /*# sourceMappingURL=index.css.map */
