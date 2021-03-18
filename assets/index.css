@@ -3,10 +3,13 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-#p1, #p2 {
+.child {
   font-size: 3vw;
 }
 
+/* #p3-text {
+    font-size: 2vw;
+} */
 #p3 {
   background-color: green;
   color: white;
@@ -14,6 +17,11 @@ body {
 
 #p4 {
   background-color: gold;
+  color: white;
+}
+
+#p5 {
+  background-color: #b31518;
   color: white;
 }
 
@@ -28,7 +36,7 @@ body {
 }
 
 #p8 {
-  background-color: red;
+  background-color: #b31518;
   color: white;
 }
 
@@ -37,9 +45,18 @@ body {
   margin: 0;
 }
 
+html {
+  font-family: sans-serif;
+  -ms-scroll-snap-type: mandatory;
+      scroll-snap-type: mandatory;
+  -ms-scroll-snap-points-y: repeat(100vh);
+      scroll-snap-points-y: repeat(100vh);
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+
 section {
-  width: 100vw;
-  height: 100vw;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,6 +70,9 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  scroll-snap-align: start;
+  text-align: center;
+  position: relative;
 }
 
 .text-center {
@@ -71,7 +91,7 @@ section {
           flex-direction: column;
 }
 
-#p2 {
+.child {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -87,8 +107,8 @@ section {
           flex-direction: column;
 }
 
-#p2 > img {
-  height: 10vw;
-  width: 10vw;
+.tree {
+  height: 500px;
+  width: 500px;
 }
 /*# sourceMappingURL=index.css.map */

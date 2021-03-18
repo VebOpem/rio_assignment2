@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/index.css">
 </head>
 <body>
-    <section>
+    <section class="child">
         <div class="text-center" id="p1">
             <p>I met a child a year ago</p>
             <p>Whose eyes would never see.</p>
@@ -16,62 +16,69 @@
         </div>
     </section>
 
-    <section id="p2" class="test">
+    <section id="p2" class="child">
         <p id="p2-text">"What colour is a tree?"</p>
-        <img id="p2-img" src="/images/t.png" alt="Tree">
+        <img id="p2-img" src="/images/t.png" class="tree" alt="Tree">
     </section>
 
-    <section id="p3">
-        <p>"In summertime a tree is green;</p>
+    <section class="child" id="p3">
+        <p id="p3-text">"In summertime, </br> a tree is green</p>
+        <img src="images/gt.png" id="p3-img" class="tree">
     </section>
 
-    <section id="p4">
-        <p>In autumn gold and red;</p>
+    <section class="child" id="p4">
+        <p id="p4-text">In autumn gold,</p>
+        <img src="images/yt.png" class="tree" id="p4-img">
     </section>
 
-    <section id="p5">
+    <section class="child" id="p5">
+        <p id="p5-text">In autumn gold,</p>
+        <p id="p5-text2">and red</p>
+        <img src="images/rt.png" class="tree">
+    </section>
+
+    <section class="child" id="p6">
         <p>In winter they are frosted white
             when all their leaves are shed."
         </p>
     </section>
 
-    <section id="p6"> 
+    <section class="child" id="p7"> 
         <p>"I know the sky is blue," she said.</p>
     </section>
 
-    <section id="p7">
+    <section class="child" id="p8">
         <p>"And silver is the sand;</p>
     </section>
 
-    <section id="p8">
+    <section class="child" id="p9">
         <p>And apples are the brightest red.</p>
     </section>
 
-    <section id="p9">
+    <section class="child" id="p10">
         <p>What colour is a man?"</p>
     </section>
     
-    <section id="p10">
+    <section class="child" id="p11">
         <p>"Man is many colours child:
             Some are yellow, some are brown.
             And some are black as sightlessness,
             Some white as eiderdown."</p>
     </section>
 
-    <section id="p11">
+    <section class="child" id="p12">
         <p>She took her crayons from a box</p>
         <p>placed them in my glove</p>
         <p>And said, "By mixing all of these</p>
         <p>Comes my favourite colour</p>
     </section>
 
-    <section id="p12">
+    <section class="child" id="p13">
         <p>love.</p>
     </section>
-
-    <section></section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/css-scroll-snap-polyfill@0.1.2/dist/css-scroll-snap-polyfill.umd.min.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
