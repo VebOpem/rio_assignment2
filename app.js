@@ -32,36 +32,32 @@ tl
     targets: '#p1',
     keyframes: [
         { opacity:1, duration:0},
-        {translateX: 50, opacity:0, delay: 0, duration:100}
+        { opacity:0, duration:100}
     ],
     //autoplay: false,
     easing: 'linear',
 }, 0)
 .add({ 
-    //text.play()
-    //autoplay: false,
-    //easing: 'linear',
-    
     targets: '#p2-text',
     keyframes: [
         {translateX: -400, opacity: 0, duration:0},
         {translateX: 0, opacity:1, duration:5, translateY: 0, duration:5},
-        {opacity: 0, duration: 2}
+        {opacity: 0, duration: 5}
     ],
     //autoplay: false,
     easing: 'linear',
-    delay: anime.stagger(2500, {start: 5}),
+    delay: anime.stagger(2500, {start: 3.5}),
 }, 0)
 .add ({
     targets: '#p2-img',
     keyframes: [
         {translateY: 400, opacity: 0, duration: 0},
         {translateY: 0, opacity: 1, duration: 5},
-        {opacity: 0, duration: 2}
+        {opacity: 0, duration: 5}
     ],
     //autoplay: false,
     easing: 'linear',
-    delay: anime.stagger(2500, {start: 5}),
+    delay: anime.stagger(2500, {start: 3.5}),
 }, 0)
 .add ({
     targets: '#p3-text',
@@ -117,6 +113,14 @@ tl
     ],
     easing: 'linear',
     delay: anime.stagger(2500, {start: 25}),
+}, 0)
+.add({
+    targets: '#p5-img',
+    keyframes: [
+        {translateX: 250, translateY: -100, opacity: 1, duration: 0},
+    ],
+    easing: 'linear',
+    delay: anime.stagger(2500, {start: 25})
 }, 0)
 
 
