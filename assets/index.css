@@ -7,9 +7,6 @@ body {
   font-size: 3vw;
 }
 
-/* #p3-text {
-    font-size: 2vw;
-} */
 #p3 {
   background-color: green;
   color: white;
@@ -26,17 +23,26 @@ body {
 }
 
 #p6 {
+  color: black;
+}
+
+#p7 {
   background-color: blue;
   color: white;
 }
 
-#p7 {
-  background-color: silver;
+#p8 {
+  background-color: blue;
   color: white;
 }
 
-#p8 {
+#p9 {
   background-color: #b31518;
+  color: white;
+}
+
+#p11 {
+  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
   color: white;
 }
 
@@ -110,5 +116,18 @@ section {
 .tree {
   height: 500px;
   width: 500px;
+}
+
+#p7-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 /*# sourceMappingURL=index.css.map */

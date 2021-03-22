@@ -1,11 +1,3 @@
-/* new Waypoint({
-    element: document.getElementById('p2'),
-    handler: function() {
-        console.log('p2');
-        test2.play();
-    }
-}) */
-
 const gra = function(min, max) {
     return Math.random() * (max - min) + min;
 }
@@ -15,6 +7,7 @@ const init = function(){
 }
 init();
 
+var p5text = document.querySelectorAll('#p5-text #p5-text2');
 
 function getScrollPercent() {
     var h = document.documentElement, 
@@ -26,7 +19,7 @@ function getScrollPercent() {
 
 const p2 = document.getElementById('#p2');
 
-const tl = anime.timeline({ autoplay: false });
+const tl = anime.timeline({ autoplay: true });
 tl
 .add({
     targets: '#p1',
@@ -117,54 +110,159 @@ tl
 .add({
     targets: '#p5-img',
     keyframes: [
-        {translateX: 250, translateY: -100, opacity: 1, duration: 0},
+        {translateX: 300, translateY: -100, opacity: 1, duration: 0},
     ],
     easing: 'linear',
     delay: anime.stagger(2500, {start: 25})
 }, 0)
-
-
-
- /* var text = anime({
-    targets: '#p2 p',
+.add({
+    targets: '#p6-img',
     keyframes: [
-        {translateX: -100, opacity: 0, duration:0},
-        {translateX: 0, opacity:1, duration:50, translateY: 250, duration:5},
+        {translateX: 300, translateY: -400, opacity: 0, duration: 0},
+        {translateX: 430, translateY: -100, opacity: 1, duration: 10},
+        {opacity: 0, duration: 3},
     ],
-}); */
-
-//new AnimePlayer({ add: tl })
+    easing: 'linear',
+    delay: anime.stagger(2500, {start: 32})
+}, 0)
+.add({
+    targets: '#p6-text',
+    keyframes: [
+        {translateX: -800, opacity: 0, duration:0},
+        {translateX: -150, translateY: 300, opacity: 1, duration: 10},
+        {opacity: 0, duration: 3},
+    ],
+    easing: 'linear',
+    delay: anime.stagger(2500, {start: 32})
+}, 0)
+.add({
+    targets: '#p7-text',
+    keyframes: [
+        {translateX: -1000, translateY: 1000, opacity: 0, duration: 0},
+        {translateX: 0, translateY: 0, opacity: 1, duration: 13},
+        {translateY: -1000, opacity: 0, duration: 5}
+    ],
+    easing: 'linear',
+    delay: anime.stagger(2500, {start: 37})
+}, 0)
+.add({
+    targets: '#p7-clouds',
+    keyframes: [
+        {translateX: 0, translateY: -1000, opacity: 0, duration: 0},
+        {translateX: 0, translateY: -150, opacity: 1, duration: 13},
+    ],
+    easing: 'linear',
+    delay: anime.stagger(2500, {start: 37})
+}, 0)
+.add({
+    targets: '#p8-clouds',
+    keyframes: [
+        {translateX: 0, translateY: -100, opacity: 1, duration: 0},
+    ],
+    easing: 'linear',
+    delay: anime.stagger(2500, {start: 42})
+}, 0)
+.add({
+    targets: '#p8-text',
+    keyframes: [
+        {translateY: 2000, opacity: 0, duration: 0},
+        {translateY: 100, opacity: 1, duration: 15},
+        {translateX: -500, duration: 17}
+    ],
+    easing: 'linear',
+    delay: anime.stagger(2500, {start: 42})
+}, 0)
+.add({
+    targets: '#p8-sand',
+    keyframes: [
+        {translateY: 2000, opacity: 0, duration: 0},
+        {translateY: 100, opacity: 1, duration: 17},
+        //{translateX: 2000, translateY: 100, duration: 7},
+    ],
+    easing: 'linear',
+    delay: anime.stagger(2500, {start: 42})
+}, 0)
+.add({
+    targets: '#p9-text',
+    keyframes: [
+        {translateX: -200, translateY: 200, opacity: 0, duration: 0},
+        {translateX: -200, translateY: 200, opacity: 1, duration: 17},
+        {translateX: -200, translateY: -1000, duration: 7}
+    ],
+    easing: 'linear',
+    delay: anime.stagger(2500, {start: 50})
+}, 0)
+.add({
+    targets: '#p9-img',
+    keyframes: [
+        {translateX: 150, translateY: 1000, duration: 0},
+        {translateX: 400, translateY: -100, duration: 17},
+        {translateX: 400, translateY: -1000, duration: 5}
+    ],
+    easing: 'linear',
+    delay: anime.stagger(2500, {start: 50})
+}, 0)
+.add({
+    targets: '#p10-img',
+    keyframes: [
+        {translateX: 150, translateY: 1000, duration: 0},
+        {translateX: 400, translateY: -100, duration: 17},
+        {translateX: 400, translateY: 1000, opacity: 0, duration: 10}
+    ],
+    easing: 'linear',
+    delay: anime.stagger(2500, {start: 57})
+}, 0)
+.add({
+    targets: '#p10-text',
+    keyframes: [
+        {translateX: -1000, translateY: 150, duration: 0},
+        {translateX: -150, translateY: 150, duration: 17},
+        {opacity: 0, duration: 3}
+    ],
+    easing: 'linear',
+    delay: anime.stagger(2500, {start: 57})
+}, 0)
+.add({
+    targets: '#p11-img',
+    keyframes: [
+        {translateX: 400, translateY: 1000, opacity: 0, duration: 0},
+        {translateX: 500, translateY: -150, opacity: 1, duration: 20},
+        {opacity: 0, duration: 3},
+    ],
+    easing: 'linear',
+    delay: anime.stagger(2500, {start: 65})
+}, 0)
+.add({
+    targets: '#p11-text',
+    keyframes: [
+        {translateX: -800, translateY: 800, duration: 0},
+        {translateX: -150, translateY: 250, duration: 20},
+        {translateX: -1000, translateY: 250, duration: 3}
+    ],
+    easing: 'linear',
+    delay: anime.stagger(2500, {start: 65})
+}, 0)
+.add({
+    targets: '#p12-text',
+    keyframes: [
+        {opacity: 0, duration: 0},
+        {opacity: 1, duration: 17},
+        {opacity: 0, duration: 3}
+    ],
+    easing: 'linear',
+    delay: anime.stagger(2500, {start: 75})
+}, 0)
+.add({
+    targets: '#p13-text',
+    keyframes: [
+        {translateY: 1000, duration: 0},
+        {translateY: 0, duration: 17}
+    ],
+    easing: 'linear',
+    delay: anime.stagger(2500, {start: 85})
+}, 0)
 
 window.addEventListener('scroll', () => {
-	const persentage = getScrollPercent()
+    const persentage = getScrollPercent()
 	tl.seek(tl.duration * (persentage / 100))
 });
-
-
- 
-/* 
-
-var animation = anime({
-    targets: '#p1',
-    keyframes: [
-      {translateX: -50, opacity: 0, duration:0},
-      {translateX: 0, opacity:1, duration:500},
-      {translateX: 50, opacity:0,delay: 2000, duration:500,}
-    ],
-    autoplay: false,
-    easing: 'linear',
-    //delay: anime.stagger(2500, {start: 0}),
-});
-
-document.addEventListener('scroll', function() {
-    animation.play();
-});
-
-
-var test2 = anime({
-    targets: '#p2',
-    keyframes: [
-        {translateY: 250, duration: 5000}
-    ],
-    //delay: anime.stagger(2500, {starts: 0})
-}); */
