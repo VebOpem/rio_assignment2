@@ -1,14 +1,3 @@
-const gra = function(min, max) {
-    return Math.random() * (max - min) + min;
-}
-const init = function(){
-  //let items = document.querySelectorAll('section');
-  //cssScrollSnapPolyfill()
-}
-init();
-
-var p5text = document.querySelectorAll('#p5-text #p5-text2');
-
 function getScrollPercent() {
     var h = document.documentElement, 
         b = document.body,
@@ -27,7 +16,6 @@ tl
         { opacity:1, duration:0},
         { opacity:0, duration:100}
     ],
-    //autoplay: false,
     easing: 'linear',
 }, 0)
 .add({ 
@@ -37,7 +25,6 @@ tl
         {translateX: 0, opacity:1, duration:5, translateY: 0, duration:5},
         {opacity: 0, duration: 5}
     ],
-    //autoplay: false,
     easing: 'linear',
     delay: anime.stagger(2500, {start: 3.5}),
 }, 0)
@@ -48,7 +35,6 @@ tl
         {translateY: 0, opacity: 1, duration: 5},
         {opacity: 0, duration: 5}
     ],
-    //autoplay: false,
     easing: 'linear',
     delay: anime.stagger(2500, {start: 3.5}),
 }, 0)
@@ -59,7 +45,6 @@ tl
         {translateX: -200, translateY: 300, opacity: 1, duration: 4},
         {translateY: -400, opacity: 0, duration: 30}
     ],
-    //autoplay: false,
     easing: 'linear',
     delay: anime.stagger(2500, {start: 12}),
 }, 0)
@@ -80,7 +65,7 @@ tl
         {translateX: -150, translateY: 300, opacity: 1, duration: 5},
     ],
     easing: 'linear',
-    delay: anime.stagger(2500, {start: 20}),
+    delay: anime.stagger(2500, {start: 18}),
 }, 0)
 .add({
     targets: '#p4-img',
@@ -88,7 +73,7 @@ tl
         {translateX: 250, translateY: -100, opacity: 1, duration: 0},
     ],
     easing: 'linear',
-    delay: anime.stagger(2500, {start: 20}),
+    delay: anime.stagger(2500, {start: 18}),
 }, 0)
 .add({
     targets: '#p5-text',
@@ -96,7 +81,7 @@ tl
         {translateX: -150, translateY: 300, opacity: 1, duration:0},
     ],
     easing: 'linear',
-    delay: anime.stagger(2500, {start: 25}),
+    delay: anime.stagger(2500, {start: 22}),
 }, 0)
 .add({
     targets: '#p5-text2',
@@ -105,7 +90,7 @@ tl
         {translateX: -150, translateY: 300, opacity: 1, duration: 8},
     ],
     easing: 'linear',
-    delay: anime.stagger(2500, {start: 25}),
+    delay: anime.stagger(2500, {start: 22}),
 }, 0)
 .add({
     targets: '#p5-img',
@@ -113,7 +98,7 @@ tl
         {translateX: 300, translateY: -100, opacity: 1, duration: 0},
     ],
     easing: 'linear',
-    delay: anime.stagger(2500, {start: 25})
+    delay: anime.stagger(2500, {start: 22})
 }, 0)
 .add({
     targets: '#p6-img',
@@ -123,7 +108,7 @@ tl
         {opacity: 0, duration: 3},
     ],
     easing: 'linear',
-    delay: anime.stagger(2500, {start: 32})
+    delay: anime.stagger(2500, {start: 30})
 }, 0)
 .add({
     targets: '#p6-text',
@@ -133,7 +118,7 @@ tl
         {opacity: 0, duration: 3},
     ],
     easing: 'linear',
-    delay: anime.stagger(2500, {start: 32})
+    delay: anime.stagger(2500, {start: 30})
 }, 0)
 .add({
     targets: '#p7-text',
@@ -143,7 +128,7 @@ tl
         {translateY: -1000, opacity: 0, duration: 5}
     ],
     easing: 'linear',
-    delay: anime.stagger(2500, {start: 37})
+    delay: anime.stagger(2500, {start: 35})
 }, 0)
 .add({
     targets: '#p7-clouds',
@@ -152,7 +137,7 @@ tl
         {translateX: 0, translateY: -150, opacity: 1, duration: 13},
     ],
     easing: 'linear',
-    delay: anime.stagger(2500, {start: 37})
+    delay: anime.stagger(2500, {start: 35})
 }, 0)
 .add({
     targets: '#p8-clouds',
@@ -160,7 +145,7 @@ tl
         {translateX: 0, translateY: -100, opacity: 1, duration: 0},
     ],
     easing: 'linear',
-    delay: anime.stagger(2500, {start: 42})
+    delay: anime.stagger(2500, {start: 40})
 }, 0)
 .add({
     targets: '#p8-text',
@@ -170,7 +155,7 @@ tl
         {translateX: -500, duration: 17}
     ],
     easing: 'linear',
-    delay: anime.stagger(2500, {start: 42})
+    delay: anime.stagger(2500, {start: 40})
 }, 0)
 .add({
     targets: '#p8-sand',
@@ -180,7 +165,7 @@ tl
         //{translateX: 2000, translateY: 100, duration: 7},
     ],
     easing: 'linear',
-    delay: anime.stagger(2500, {start: 42})
+    delay: anime.stagger(2500, {start: 38})
 }, 0)
 .add({
     targets: '#p9-text',
@@ -200,7 +185,7 @@ tl
         {translateX: 400, translateY: -1000, duration: 5}
     ],
     easing: 'linear',
-    delay: anime.stagger(2500, {start: 50})
+    delay: anime.stagger(2500, {start: 47})
 }, 0)
 .add({
     targets: '#p10-img',
@@ -210,7 +195,7 @@ tl
         {translateX: 400, translateY: 1000, opacity: 0, duration: 10}
     ],
     easing: 'linear',
-    delay: anime.stagger(2500, {start: 57})
+    delay: anime.stagger(2500, {start: 55})
 }, 0)
 .add({
     targets: '#p10-text',
@@ -220,7 +205,7 @@ tl
         {opacity: 0, duration: 3}
     ],
     easing: 'linear',
-    delay: anime.stagger(2500, {start: 57})
+    delay: anime.stagger(2500, {start: 55})
 }, 0)
 .add({
     targets: '#p11-img',
@@ -230,7 +215,7 @@ tl
         {opacity: 0, duration: 3},
     ],
     easing: 'linear',
-    delay: anime.stagger(2500, {start: 65})
+    delay: anime.stagger(2500, {start: 60})
 }, 0)
 .add({
     targets: '#p11-text',
@@ -240,7 +225,7 @@ tl
         {translateX: -1000, translateY: 250, duration: 3}
     ],
     easing: 'linear',
-    delay: anime.stagger(2500, {start: 65})
+    delay: anime.stagger(2500, {start: 60})
 }, 0)
 .add({
     targets: '#p12-text',
@@ -250,7 +235,7 @@ tl
         {opacity: 0, duration: 3}
     ],
     easing: 'linear',
-    delay: anime.stagger(2500, {start: 75})
+    delay: anime.stagger(2500, {start: 70})
 }, 0)
 .add({
     targets: '#p13-text',
