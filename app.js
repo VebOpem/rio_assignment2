@@ -133,7 +133,7 @@ tl
 .add({
     targets: '#p7-clouds',
     keyframes: [
-        {translateX: 0, translateY: -1000, opacity: 0, duration: 0},
+        {translateX: 0, translateY: -300, opacity: 0, duration: 0},
         {translateX: 0, translateY: -150, opacity: 1, duration: 13},
     ],
     easing: 'linear',
@@ -142,7 +142,7 @@ tl
 .add({
     targets: '#p8-clouds',
     keyframes: [
-        {translateX: 0, translateY: -100, opacity: 1, duration: 0},
+        {translateX: 0, translateY: -150, opacity: 1, duration: 0},
     ],
     easing: 'linear',
     delay: anime.stagger(2500, {start: 40})
@@ -161,7 +161,7 @@ tl
     targets: '#p8-sand',
     keyframes: [
         {translateY: 2000, opacity: 0, duration: 0},
-        {translateY: 100, opacity: 1, duration: 17},
+        {translateY: 180, opacity: 1, duration: 17},
         //{translateX: 2000, translateY: 100, duration: 7},
     ],
     easing: 'linear',
@@ -192,7 +192,7 @@ tl
     keyframes: [
         {translateX: 150, translateY: 1000, duration: 0},
         {translateX: 400, translateY: -100, duration: 17},
-        {translateX: 400, translateY: 1000, opacity: 0, duration: 10}
+        {translateX: 400, opacity: 0, duration: 8}
     ],
     easing: 'linear',
     delay: anime.stagger(2500, {start: 55})
@@ -200,7 +200,7 @@ tl
 .add({
     targets: '#p10-text',
     keyframes: [
-        {translateX: -1000, translateY: 150, duration: 0},
+        {translateX: -1000, translateY: 0, duration: 0},
         {translateX: -150, translateY: 150, duration: 17},
         {opacity: 0, duration: 3}
     ],
@@ -210,12 +210,12 @@ tl
 .add({
     targets: '#p11-img',
     keyframes: [
-        {translateX: 400, translateY: 1000, opacity: 0, duration: 0},
+        {translateX: 400, opacity: 1, duration: 0},
         {translateX: 500, translateY: -150, opacity: 1, duration: 20},
         {opacity: 0, duration: 3},
     ],
     easing: 'linear',
-    delay: anime.stagger(2500, {start: 60})
+    delay: anime.stagger(2500, {start: 67})
 }, 0)
 .add({
     targets: '#p11-text',
@@ -228,20 +228,10 @@ tl
     delay: anime.stagger(2500, {start: 60})
 }, 0)
 .add({
-    targets: '#p12-text',
-    keyframes: [
-        {opacity: 0, duration: 0},
-        {opacity: 1, duration: 17},
-        {opacity: 0, duration: 3}
-    ],
-    easing: 'linear',
-    delay: anime.stagger(2500, {start: 70})
-}, 0)
-.add({
     targets: '#p13-text',
     keyframes: [
         {translateY: 1000, duration: 0},
-        {translateY: 0, duration: 17}
+        {translateY: -50, duration: 17}
     ],
     easing: 'linear',
     delay: anime.stagger(2500, {start: 85})

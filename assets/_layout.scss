@@ -45,3 +45,29 @@ section {
     flex-direction: column;
     align-items: flex-end;
 }
+
+#p8-clouds, #p7-clouds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.heart {
+    height: 100px;
+    width: 100px;
+}
+
+#p8-clouds > img , #p7-clouds > img {
+    margin-left: 5rem;
+}
+
+.cloud {
+    height: 100px;
+    width: 100px;
+}
+
+.sand {
+    height: 200px;
+    width: 100vw;
+}
