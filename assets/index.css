@@ -7,43 +7,36 @@ body {
   font-size: 3vw;
 }
 
+#p3, #p4, #p5, #p7, #p8, #p9, #p11 {
+  color: white;
+}
+
 #p3 {
   background-color: green;
-  color: white;
 }
 
 #p4 {
   background-color: gold;
-  color: white;
 }
 
 #p5 {
   background-color: #b31518;
-  color: white;
-}
-
-#p6 {
-  color: black;
 }
 
 #p7 {
   background-color: blue;
-  color: white;
 }
 
 #p8 {
   background-color: blue;
-  color: white;
 }
 
 #p9 {
   background-color: #b31518;
-  color: white;
 }
 
 #p11 {
   background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
-  color: white;
 }
 
 * {
@@ -129,5 +122,40 @@ section {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+
+#p8-clouds, #p7-clouds {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.heart {
+  height: 100px;
+  width: 100px;
+}
+
+#p8-clouds > img, #p7-clouds > img {
+  margin-left: 5rem;
+}
+
+.cloud {
+  height: 100px;
+  width: 100px;
+}
+
+.sand {
+  height: 200px;
+  width: 100vw;
 }
 /*# sourceMappingURL=index.css.map */
