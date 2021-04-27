@@ -1,3 +1,4 @@
+import { animejsLarge } from './js/animejs-large.js';
 import {animejsSmall} from './js/animejs-small.js';
 
 
@@ -11,7 +12,12 @@ function onWindowResize () {
     if (window.innerWidth <= 600) {
         console.log('smalldick');
         animejsSmall();
+        location.reload();
+        stop()
     } else {
         console.log('bigdick')
+        animejsLarge();
+        location.reload();
+        stop()
     }
 }
