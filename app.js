@@ -10,14 +10,8 @@ window.addEventListener("resize", onWindowResize )
 
 function onWindowResize () {
     if (window.innerWidth <= 600) {
-        console.log('smalldick');
         animejsSmall();
-        location.reload();
-        stop()
     } else {
-        console.log('bigdick')
         animejsLarge();
-        location.reload();
-        stop()
     }
 }
