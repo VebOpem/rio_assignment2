@@ -7,3 +7,9 @@ body {
 .child {
     font-size: 3vw;
 }
+
+@media only screen and (max-width: 600px) {
+    .child {
+        font-size: 5vw;
+    }
+}
