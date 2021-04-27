@@ -14,7 +14,7 @@ tl
     targets: '#p1',
     keyframes: [
         { opacity:1, duration:0},
-        { opacity:0, duration:100}
+        { opacity:1, duration:100}
     ],
     easing: 'linear',
 }, 0)

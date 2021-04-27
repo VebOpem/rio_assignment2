@@ -1,31 +1,11 @@
-#p3, #p4, #p5, #p7, #p8, #p9, #p11{
-    color: white;
-}
+$white: white;
 
-#p3 {
-    background-color: green;
-}
+$green: green;
 
-#p4{
-    background-color: gold;
-}
+$gold: gold;
 
-#p5 {
-    background-color: #b31518;
-}
+$red: #b31518;
 
-#p7{
-    background-color: blue;
-}
+$blue: blue;
 
-#p8 {
-    background-color: blue;
-}
-
-#p9 {
-    background-color: #b31518;
-}
-
-#p11 {
-    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
-}
+$rainbowGradient: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);

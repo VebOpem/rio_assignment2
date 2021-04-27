@@ -48,4 +48,12 @@ Modifier
 
 
 # PROJECT DESCRIPTION
+
+This is a website created for the course IDG1293 course and displays the text from Joni Mitchell's Favorite Color with animations made in anime.js
+
+What techonolgoies, how to start, headers, paragraphs in reademe, pull requests, use of css grid or flexbox
+
+asasignment 3 will mostly grade ux and creative use of css
+
+benefits and disadbvanteges of what we have made for the presentation
     
