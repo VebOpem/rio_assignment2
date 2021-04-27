@@ -10,7 +10,7 @@ The text we have chosen is Favorite Colour by Joni Mitchell
 # SoC
 
 Soc - What is it?
-Soc (Separation of concern) is a design principle for separating code into distinct sections such that each section addresses a separate concern.
+Soc (Separation of concern) is a design principle for separating application and computer program into distinct sections such that each section addresses a separate concern. The essence of this method is to create order.
 
 The project splits the SoC's into colors, interaction, layout and typography
 
