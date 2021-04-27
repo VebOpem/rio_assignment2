@@ -7,6 +7,8 @@ Assignment 2 in IDG1293
 The text we have chosen is Favorite Colour by Joni Mitchell
 (Link to the text: https://jonimitchell.com/music/song.cfm?id=296)
 
+# FONT CHOICE
+
 # SoC
 
 Soc - What is it?
@@ -50,10 +52,12 @@ Modifier
 
 # PROJECT DESCRIPTION
 
-This is a website created for the course IDG1293 course and displays the text from Joni Mitchell's Favorite Color with animations made in anime.js
+This is a project for IDG1293 Advanced CSS course. The project allows the student to use different CSS techniques which grant the student a chance to play around the advantage of using advanced CSS methods. With this, students get to learn how to use SASS, BEM, Mixin, and other special technological approach in order to better the use of CSS.
+
+During the process of this project, students of this course are given multiple options to be creative using advanced CSS to potray a certain song or poem using several CSS techniques and other animation methods. Team Rio has chosen to create a website that displays the text from Joni Mitchell's poem, Favorite Color, with animations made in anime.js.
 
 What techonolgoies, how to start, headers, paragraphs in reademe, pull requests, use of css grid or flexbox
 
-asasignment 3 will mostly grade ux and creative use of css
+Assignment 3, which is the production release and the final part of the project, will mostly grade UX and creative use of CSS.
 
-benefits and disadbvanteges of what we have made for the presentation
+Benefits and disadbvanteges of what we have made for the presentation.
