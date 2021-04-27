@@ -42,7 +42,7 @@ tl
     targets: '#p3-text',
     keyframes: [
         {translateX: 400, translateY: -350, opacity: 0, duration:0},
-        {translateX: -200, translateY: 300, opacity: 1, duration: 4},
+        {translateX: 0, translateY: 0, opacity: 1, duration: 4},
         {translateY: -400, opacity: 0, duration: 30}
     ],
     easing: 'linear',
@@ -52,7 +52,7 @@ tl
     targets: '#p3-img',
     keyframes: [
         {translateX: -400, translateY: 350, opacity: 0, duration:0},
-        {translateX: 300, translateY: -100, opacity: 1, duration: 4},
+        {translateX: 0, translateY: 0, opacity: 1, duration: 4},
         {opacity: 0, duration: 7}
     ],
     easing: 'linear',
@@ -62,7 +62,7 @@ tl
     targets: '#p4-text',
     keyframes: [
         {translateX: -800, opacity: 0, duration:0},
-        {translateX: -150, translateY: 300, opacity: 1, duration: 5},
+        {translateX: 0, translateY: 0, opacity: 1, duration: 5},
     ],
     easing: 'linear',
     delay: anime.stagger(2500, {start: 18}),
@@ -70,7 +70,7 @@ tl
 .add({
     targets: '#p4-img',
     keyframes: [
-        {translateX: 250, translateY: -100, opacity: 1, duration: 0},
+        {translateX: 0, translateY: 0, opacity: 1, duration: 0},
     ],
     easing: 'linear',
     delay: anime.stagger(2500, {start: 18}),
@@ -78,7 +78,7 @@ tl
 .add({
     targets: '#p5-text',
     keyframes: [
-        {translateX: -150, translateY: 300, opacity: 1, duration:0},
+        {translateX: 0, translateY: 0, opacity: 1, duration:0},
     ],
     easing: 'linear',
     delay: anime.stagger(2500, {start: 22}),
@@ -87,7 +87,7 @@ tl
     targets: '#p5-text2',
     keyframes: [
         {translateX: -800, opacity: 0, duration:0},
-        {translateX: -150, translateY: 300, opacity: 1, duration: 8},
+        {translateX: 0, translateY: 0, opacity: 1, duration: 8},
     ],
     easing: 'linear',
     delay: anime.stagger(2500, {start: 22}),
@@ -95,7 +95,7 @@ tl
 .add({
     targets: '#p5-img',
     keyframes: [
-        {translateX: 300, translateY: -100, opacity: 1, duration: 0},
+        {translateX: 0, translateY: 0, opacity: 1, duration: 0},
     ],
     easing: 'linear',
     delay: anime.stagger(2500, {start: 22})
@@ -104,7 +104,7 @@ tl
     targets: '#p6-img',
     keyframes: [
         {translateX: 300, translateY: -400, opacity: 0, duration: 0},
-        {translateX: 430, translateY: -100, opacity: 1, duration: 10},
+        {translateX: 0, translateY: 0, opacity: 1, duration: 10},
         {opacity: 0, duration: 3},
     ],
     easing: 'linear',
@@ -114,7 +114,7 @@ tl
     targets: '#p6-text',
     keyframes: [
         {translateX: -800, opacity: 0, duration:0},
-        {translateX: -150, translateY: 300, opacity: 1, duration: 10},
+        {translateX: 0, translateY: 0, opacity: 1, duration: 10},
         {opacity: 0, duration: 3},
     ],
     easing: 'linear',
@@ -171,7 +171,7 @@ tl
     targets: '#p9-text',
     keyframes: [
         {translateX: -200, translateY: 200, opacity: 0, duration: 0},
-        {translateX: -200, translateY: 200, opacity: 1, duration: 17},
+        {translateX: 0, translateY: 0, opacity: 1, duration: 17},
         {translateX: -200, translateY: -1000, duration: 7}
     ],
     easing: 'linear',
@@ -181,7 +181,7 @@ tl
     targets: '#p9-img',
     keyframes: [
         {translateX: 150, translateY: 1000, duration: 0},
-        {translateX: 400, translateY: -100, duration: 17},
+        {translateX: 0, translateY: 0, duration: 17},
         {translateX: 400, translateY: -1000, duration: 5}
     ],
     easing: 'linear',
@@ -201,7 +201,7 @@ tl
     targets: '#p10-text',
     keyframes: [
         {translateX: -1000, translateY: 0, duration: 0},
-        {translateX: -150, translateY: 150, duration: 17},
+        {translateX: -150, translateY: 250, duration: 17},
         {opacity: 0, duration: 3}
     ],
     easing: 'linear',
@@ -211,7 +211,7 @@ tl
     targets: '#p11-img',
     keyframes: [
         {translateX: 400, opacity: 1, duration: 0},
-        {translateX: 500, translateY: -150, opacity: 1, duration: 20},
+        {translateX: -150, translateY: 0, opacity: 1, duration: 20},
         {opacity: 0, duration: 3},
     ],
     easing: 'linear',
@@ -221,7 +221,7 @@ tl
     targets: '#p11-text',
     keyframes: [
         {translateX: -800, translateY: 800, duration: 0},
-        {translateX: -150, translateY: 250, duration: 20},
+        {translateX: 100, translateY: 0, duration: 20},
         {translateX: -1000, translateY: 250, duration: 3}
     ],
     easing: 'linear',
