@@ -145,15 +145,6 @@ html {
 
 section {
   scroll-snap-align: start;
-  /* position: relative; */
-  /* height: 100vh; */
-  /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-    text-align: center;
-     */
 }
 
 .text-center {
@@ -272,6 +263,17 @@ section {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  section {
+    scroll-snap-align: none;
+  }
+  html {
+    -ms-scroll-snap-type: none;
+        scroll-snap-type: none;
+    -ms-scroll-snap-points-y: none;
+        scroll-snap-points-y: none;
+    -ms-scroll-snap-type: y none;
+        scroll-snap-type: y none;
   }
 }
 
