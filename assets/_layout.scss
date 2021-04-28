@@ -34,15 +34,6 @@ html {
 
 section {
     scroll-snap-align: start;
-    /* position: relative; */
-    /* height: 100vh; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-    text-align: center;
-     */
 }
 
 .text-center {
@@ -126,6 +117,16 @@ section {
 
     .flex-row {
         flex-direction: column;
+    }
+
+    section {
+        scroll-snap-align: none;
+    }
+
+    html {
+        scroll-snap-type: none;
+        scroll-snap-points-y: none;
+        scroll-snap-type: y none;
     }
         
 }
